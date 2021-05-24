@@ -1,1 +1,59 @@
-
+.grid{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+.a, .b, .c, .d, .e, .f, .aa, .bb{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-style: oblique;
+}
+.navbar{
+    text-align: center;
+}
+.na{
+    padding-right: 5%;
+    padding-left: 5%;   
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    background-color: black;
+    color: #eeeeee;
+}
+.na:hover{
+    background-color: #eeeeee;
+    color: black;
+}
+.a, .c, .e{
+    background-color: #eeeeee;
+}
+.b, .d, .f{
+    background-color: white;
+}
+.titulo{
+    max-width: 75%;
+    text-align: center;
+    margin: auto;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h3{
+    font-style: normal;
+    text-align: center;
+}
+.img1{
+    float: left;
+    width: 49%;
+}
+.img2{
+    float: right;
+    width: 49%;
+}
+.aa, .bb{
+    padding-left: 10px;
+    padding-right: 10px;    
+}
